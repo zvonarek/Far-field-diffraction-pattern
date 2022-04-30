@@ -1,4 +1,4 @@
-# Far-field-diffraction-pattern
+## Far-field-diffraction-pattern
 Propagating the field from a single slit experiment using the Scipy and animating the result with matplotlib.
 Analytically well-understood case of a single-slit experiment. The sequence of Fourier transforms performed on the aperture field distribution was implemented in Python to resolve the far-field diffraction pattern–––given in one-dimension below up to a normalization constant of $2\pi$. I used the $|scipy fft|$ package which contains the Fast Fourier Transform (FFT) algorithm to perform,
 \begin{equation}
@@ -12,4 +12,5 @@ where $E(k_x) = \mathcal{F}\{E(x,z_{0})\}$ and $k_z$ is given by the dispersion 
 
 In FRED, a commercial Ray-tracing software, I simulated a 60$\mu$m x 1.3mm single slit illuminated by rays with a wavelength of 0.63$\mu$m. I resolved both the narrow and long dimensions using the propagation routine from eq. ~\eqref{eqn:Diffraction} at a distance of 50mm from the slit.
 
-UPDATE: I will re-work the formatting so the LaTeX equations are presented nicely, sorry!
+# UPDATE: I will re-work the formatting so the LaTeX equations are presented nicely, sorry!
+# Take a look at my poster from Fall 2021 at Fermilab!: https://lss.fnal.gov/archive/2021/poster/fermilab-poster-21-130-student.pdf
